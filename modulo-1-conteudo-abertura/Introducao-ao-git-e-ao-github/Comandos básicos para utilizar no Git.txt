@@ -1,0 +1,14 @@
+ls    = listar pastas (flag -a para listar arquivos ocultos)
+cd    = navegar entre as pastas
+clear = limpar tela ou Ctrl + L
+mkdir = criar pasta
+echo  = printa o que digitar na tela(criar arquivo = echo "texto" > arquivo.txt)
+rm    = remover diretorio -rm( r = flag para remover todas as pastas dentro desse
+ 	diretorio e f = force para não aparecer confirmações)
+
+
+OBJETOS INTERNOS GIT
+
+BLOBS   = arquivos que contem metadados do git
+TREES   = armazenam BLOBS
+COMMITS = aponta para trees e commit anterior
